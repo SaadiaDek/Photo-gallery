@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="addTabFocus()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "Yellow bird" src = "https://images.fineartamerica.com/images-medium-5/waved-albatross-diomedea-irrorata-panoramic-images.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "Beatiful Bird" src = "https://images.fineartamerica.com/images/artworkimages/medium/3/portrait-of-a-bluejay-james-w-johnson.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" src = "https://render.fineartamerica.com/images/rendered/search/framed-print/images-medium-5/a-flock-of-pigeons-1-watercolor-painting-of-birds-beverly-brown-prints.jpg?imgWI=6.5&imgHI=10&sku=CRQ13&mat1=PM918&mat2=&t=2&b=2&l=2&r=2&off=0.5&frameW=0.875" alt = "Young Bird" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+<img class = "preview" alt = "Gorgeous bird" src = "https://render.fineartamerica.com/images/rendered/medium/print/7/10/break/images/artworkimages/medium/1/blue-2-diego-fernandez.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "Adorable Bird" src = "https://render.fineartamerica.com/images/rendered/medium/print/5.5/8/break/images-medium-5/white-owl-april-moen.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" src = "https://render.fineartamerica.com/images/rendered/medium/print/5.5/8/break/images/artworkimages/medium/1/1-hummingbird-sam-sidders.jpg" alt = "Delicate bird" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
